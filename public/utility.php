@@ -321,6 +321,7 @@ class Utility {
         return $result;
     }
     public static function callLocalFunction($mod, $route, $controller, $action){
+
         ob_start();
         require_once(SERVER_ROOT . '/commands/'.$mod.'/'.$route.'/'.$controller.'.php');
         $call = new $controller();

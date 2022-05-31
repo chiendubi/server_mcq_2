@@ -1,0 +1,248 @@
+(31/05/22-11:37) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:37) host_name:ths.esmiles.vn
+(31/05/22-11:39) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:39) host_name:ths.esmiles.vn
+(31/05/22-11:39) chainPermission:Array
+(
+    [status] => OK
+    [message] => No record for query: SELECT code, language_permission, active  FROM chain WHERE host ="ths.esmiles.vn"
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                )
+
+        )
+
+)
+
+(31/05/22-11:39) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:39) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:40) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:40) host_name:ths.esmiles.vn
+(31/05/22-11:40) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:43) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:43) host_name:ths.esmiles.vn
+(31/05/22-11:43) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:43) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:43) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:43) shared.php - controller,action,post: usermasters,account,{"data":"{}","language":"vi"}
+(31/05/22-11:43) inflection - _json_echo - msg = admin_login
+(31/05/22-11:45) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:45) host_name:ths.esmiles.vn
+(31/05/22-11:45) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:45) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:45) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:45) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:45) host_name:ths.esmiles.vn
+(31/05/22-11:45) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:45) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:45) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:46) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:46) host_name:ths.esmiles.vn
+(31/05/22-11:46) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:46) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:46) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:46) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:46) host_name:ths.esmiles.vn
+(31/05/22-11:46) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:46) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:46) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:46) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:46) host_name:ths.esmiles.vn
+(31/05/22-11:46) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:46) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:46) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:47) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:47) host_name:ths.esmiles.vn
+(31/05/22-11:47) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:47) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:47) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:47) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(31/05/22-11:47) host_name:ths.esmiles.vn
+(31/05/22-11:47) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(31/05/22-11:47) inflection - _json_echo - msg = getChainByHostName
+(31/05/22-11:47) inflection - _json_echo - msg = callLocalFunction
+(31/05/22-11:47) shared.php - controller,action,post: usermasters,account,{"data":"{\"username\":\"chienld@esmiles.vn\",\"password\":\"123456\"}","language":"vi"}
+(31/05/22-11:47) inflection - _json_echo - msg = admin_login
+(31/05/22-11:47) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"050e0ca693a5ab9b9482a3757b95edf0\"}","language":"vi"}
