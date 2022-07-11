@@ -38,6 +38,7 @@ class hockiList{
                 c_namhoc.*  
             FROM c_hocki 
             LEFT JOIN c_namhoc ON (c_namhoc.code = c_hocki.c_namhoc_code) 
+            WHERE 1 
         ';
         $condition = '';
         $result = Utility::processedQueryDataList($table, $query, $condition);

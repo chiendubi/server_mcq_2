@@ -1,6 +1,6 @@
 <?php
 
-class toList{
+class lopList{
     use sqlModel;
 	function beforeAction ($action) {
         switch ($action) {
@@ -19,6 +19,9 @@ class toList{
             case 'getData':
                 $this->getData();
                 break;
+            case 'getOptionData':
+                $this->getOptionData();
+                break;
             default:
                 $response = array('status' => 'ERROR', 'message' => 'Please set beforeAction '. $action);
                 _json_echo('list', $response);
@@ -28,11 +31,15 @@ class toList{
     function getDataList(){
         $response = array('status' => 'ERROR', 'message' => 'getDataList', 'data' => array());
         $postData = Utility::processedData();
-        $table = 'c_to';
+        $table = 'c_lop';
         $query = '
             SELECT 
-                c_to.* 
-            FROM c_to 
+                c_lop.*, 
+                c_namhoc.*,  
+                c_khoi.*  
+            FROM c_lop 
+            LEFT JOIN c_namhoc ON (c_namhoc.code = c_lop.c_namhoc_code)  
+            LEFT JOIN c_khoi ON (c_khoi.code = c_lop.c_khoi_code) 
             WHERE 1 
         ';
         $condition = '';
@@ -42,8 +49,10 @@ class toList{
         $adata = array();
         foreach($result['data'] as $rs){
             $adata[] = array(
-                'DT_RowId' => 'row_'.$rs['C_to']['id'],
-                'c_to' => $rs['C_to']
+                'DT_RowId' => 'row_'.$rs['C_lop']['id'],
+                'c_namhoc' => $rs['C_namhoc'],
+                'c_lop' => $rs['C_lop'],
+                'c_khoi' => $rs['C_khoi']
             );
         }
         $response = array(
@@ -73,7 +82,7 @@ class toList{
         if($data['default']['id'] > 0){
             $skip[] = 'code';
         }else{
-            $data['default']['code'] = Utility::processedCheckField('c_to', 'code', $data['default']['name'], true);
+            $data['default']['code'] = Utility::processedCheckField('c_lop', 'code', $data['default']['name'], true);
         }
 
         ## Kiểm tra tên trùng lặp
@@ -84,7 +93,7 @@ class toList{
         if($name_exist == 1){
             $response['status'] = 'ERR_EXIST';
         }else{
-            $result = Utility::processedSaveData('c_to', $data['default'], $skip, $json);
+            $result = Utility::processedSaveData('c_lop', $data['default'], $skip, $json);
             if($result['status'] == "OK"){
                 $response['status'] = 'OK';
                 
@@ -95,11 +104,11 @@ class toList{
     function checkNameUsed($data){
         $sql_model = new VanillaModel();
         $is_exist = 0;
-        $condition = $data['id'] > 0 ? 'AND id != '.$data['id'].'' : '';
+        $condition = $data['id'] > 0 ? ' AND c_lop.id != '.$data['id'].'' : '';
         $name_exist =  $sql_model->queryWithResultSet('
-            SELECT id  
-            FROM c_to   
-            WHERE UPPER(name) = UPPER("'.$data['name'].'") '. $condition
+            SELECT c_lop.id  
+            FROM c_lop   
+            WHERE UPPER(c_lop.name) = UPPER("'.$data['name'].'") AND c_lop.c_namhoc_code = "'.$data['c_namhoc_code'].'" AND c_lop.c_khoi_code = "'.$data['c_khoi_code'].'" '. $condition
         );
         if(count($name_exist['info']['rows']) > 0){
             $is_exist = 1;
@@ -109,7 +118,7 @@ class toList{
     function deleteFormData(){
         $response = array('status' => 'ERROR', 'message' => 'deleteFormData', 'data' => array());
         $data = Utility::processedData();
-        $result = Utility::processedDeleteData('c_to', $data);
+        $result = Utility::processedDeleteData('c_lop', $data);
         if($result['status'] == "OK"){
             $response['status'] = 'OK';
         } 
@@ -156,6 +165,22 @@ class toList{
         //     $response['data'] = $result['info']['rows'];
         // } 
         _json_echo('getData', $response);
+    }
+    function getOptionData(){
+        $response = array('status' => 'OK', 'message' => 'getOptionData', 'data' => array());
+        $response['data'] = array(
+            'namhocList' => Utility::getOptionDynamic('global', 'namhoc', 'namhocGlobal', 'list'),
+            'khoiList' => Utility::getOptionDynamic('global', 'khoi', 'khoiGlobal', 'list'),
+            // 'country' => $this->getOptionDynamic('global', 'country', 'countryGlobal', 'getCountry'),
+            ## 'customerGroup' => $this->getCustomerGroup(),
+            ## 'insurances' => $this->getInsurances(),
+            // 'cities' => $this->getCities(),
+            ## 'makerting' => $this->getMakerting(),
+            ## 'systemic' => Utility::getOptionDynamic('global', 'diseases', 'diseasesSystemicGlobal', 'getDiseasesSystemicList'),
+            ## 'dental' => Utility::getOptionDynamic('global', 'diseases', 'diseasesDentalGlobal', 'getDiseasesDentalList'),
+            ## 'specialty' => Utility::getOptionDynamic('global', 'specialist', 'specialistGlobal', 'getSpecialist')
+        );
+        _json_echo('getOptionData', $response);
     }
   
     function __destruct() {

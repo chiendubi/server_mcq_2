@@ -33,6 +33,7 @@ class namhocList{
             SELECT 
                 c_namhoc.* 
             FROM c_namhoc 
+            WHERE 1 
         ';
         $condition = '';
         $result = Utility::processedQueryDataList($table, $query, $condition);

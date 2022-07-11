@@ -33,6 +33,7 @@ class khoiList{
             SELECT 
                 c_khoi.* 
             FROM c_khoi 
+            WHERE 1 
         ';
         $condition = '';
         $result = Utility::processedQueryDataList($table, $query, $condition);
