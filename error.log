@@ -945,3 +945,772 @@
 )
 
 (11/07/22-16:42) inflection - _json_echo - msg = getDataList
+(11/07/22-16:48) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:48) host_name:ths.esmiles.vn
+(11/07/22-16:48) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:48) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:48) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:48) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:48) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_khoi.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:48) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 5
+                            [code] => 1G3L
+                            [name] => 11
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 6
+                            [code] => 17UJ
+                            [name] => 12
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:48) inflection - _json_echo - msg = getDataList
+(11/07/22-16:48) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:48) host_name:ths.esmiles.vn
+(11/07/22-16:48) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:48) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:48) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:48) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:48) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_khoi.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:48) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 5
+                            [code] => 1G3L
+                            [name] => 11
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 6
+                            [code] => 17UJ
+                            [name] => 12
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:48) inflection - _json_echo - msg = getDataList
+(11/07/22-16:49) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:49) host_name:ths.esmiles.vn
+(11/07/22-16:49) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:49) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:49) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:49) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:49) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_khoi.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:49) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 5
+                            [code] => 1G3L
+                            [name] => 11
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 6
+                            [code] => 17UJ
+                            [name] => 12
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:49) inflection - _json_echo - msg = getDataList
+(11/07/22-16:49) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:49) host_name:ths.esmiles.vn
+(11/07/22-16:49) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:49) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:49) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:49) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:49) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_khoi.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:49) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 5
+                            [code] => 1G3L
+                            [name] => 11
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 6
+                            [code] => 17UJ
+                            [name] => 12
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:49) inflection - _json_echo - msg = getDataList
+(11/07/22-16:49) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:49) host_name:ths.esmiles.vn
+(11/07/22-16:49) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:49) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:49) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:49) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:49) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_khoi.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:49) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 5
+                            [code] => 1G3L
+                            [name] => 11
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 6
+                            [code] => 17UJ
+                            [name] => 12
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:49) inflection - _json_echo - msg = getDataList
+(11/07/22-16:50) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:50) host_name:ths.esmiles.vn
+(11/07/22-16:50) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:50) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:50) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:50) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:50) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_khoi.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:50) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 5
+                            [code] => 1G3L
+                            [name] => 11
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 6
+                            [code] => 17UJ
+                            [name] => 12
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:50) inflection - _json_echo - msg = getDataList
+(11/07/22-16:51) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:51) host_name:ths.esmiles.vn
+(11/07/22-16:51) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:51) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:51) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:51) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:51) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_khoi.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:51) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 5
+                            [code] => 1G3L
+                            [name] => 11
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_khoi] => Array
+                        (
+                            [id] => 6
+                            [code] => 17UJ
+                            [name] => 12
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:51) inflection - _json_echo - msg = getDataList
+(11/07/22-16:51) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_namhoc.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:51) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_namhoc] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => 2021-2022
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_namhoc] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => 2022-2023
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 2
+    [totalRecordwithFilter] => 2
+)
+
+(11/07/22-16:51) inflection - _json_echo - msg = getDataList
+(11/07/22-16:53) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:53) host_name:ths.esmiles.vn
+(11/07/22-16:53) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:53) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:53) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:53) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:53) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_to.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:53) Invalid query: 
+            SELECT 
+                c_namhoc.* 
+            FROM c_namhoc 
+         ORDER BY c_to.name asc LIMIT 0, 10 - ERROR: Unknown column 'c_to.name' in 'order clause'
+(11/07/22-16:53) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => 
+    [totalRecords] => 2
+    [totalRecordwithFilter] => 2
+)
+
+(11/07/22-16:53) inflection - _json_echo - msg = getDataList
+(11/07/22-16:54) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:54) host_name:ths.esmiles.vn
+(11/07/22-16:54) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:54) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:54) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:54) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_to.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:54) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+        )
+
+    [totalRecords] => 0
+    [totalRecordwithFilter] => 0
+)
+
+(11/07/22-16:54) inflection - _json_echo - msg = getDataList
+(11/07/22-16:54) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(11/07/22-16:54) host_name:ths.esmiles.vn
+(11/07/22-16:54) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(11/07/22-16:54) inflection - _json_echo - msg = getChainByHostName
+(11/07/22-16:54) inflection - _json_echo - msg = callLocalFunction
+(11/07/22-16:54) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"1db854157a2778e3cf2738ec8fbd3361\"}","language":"vi"}
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_to.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:54) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+        )
+
+    [totalRecords] => 0
+    [totalRecordwithFilter] => 0
+)
+
+(11/07/22-16:54) inflection - _json_echo - msg = getDataList
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Toán\"}}","language":"vi"}
+(11/07/22-16:54) inflection - _json_echo - msg = saveFormData
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"draw":"2","columns":[{"data":"c_to.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:54) getDataList-result:Array
+(
+    [draw] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_to] => Array
+                        (
+                            [id] => 11
+                            [code] => TLG1
+                            [name] => Toán
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 1
+    [totalRecordwithFilter] => 1
+)
+
+(11/07/22-16:54) inflection - _json_echo - msg = getDataList
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Văn\"}}","language":"vi"}
+(11/07/22-16:54) inflection - _json_echo - msg = saveFormData
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"draw":"3","columns":[{"data":"c_to.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:54) getDataList-result:Array
+(
+    [draw] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_to] => Array
+                        (
+                            [id] => 11
+                            [code] => TLG1
+                            [name] => Toán
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_to] => Array
+                        (
+                            [id] => 12
+                            [code] => VDJD
+                            [name] => Văn
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 2
+    [totalRecordwithFilter] => 2
+)
+
+(11/07/22-16:54) inflection - _json_echo - msg = getDataList
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Ngoại Ngữ\"}}","language":"vi"}
+(11/07/22-16:54) inflection - _json_echo - msg = saveFormData
+(11/07/22-16:54) shared.php - controller,action,post: admins,list,{"draw":"4","columns":[{"data":"c_to.name","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(11/07/22-16:54) getDataList-result:Array
+(
+    [draw] => 4
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_to] => Array
+                        (
+                            [id] => 13
+                            [code] => NNSDP
+                            [name] => Ngoại Ngữ
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_to] => Array
+                        (
+                            [id] => 11
+                            [code] => TLG1
+                            [name] => Toán
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_to] => Array
+                        (
+                            [id] => 12
+                            [code] => VDJD
+                            [name] => Văn
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(11/07/22-16:54) inflection - _json_echo - msg = getDataList
