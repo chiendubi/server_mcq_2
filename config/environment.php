@@ -12,7 +12,7 @@ if (strpos($url_temp, 'localhost') || $production_mode == "DEV") {
     define ('DEBUG_ENVIRONMENT',false);
     define ('MAINTENANCE_ENVIRONMENT',false);
 
-    define('DB_NAME', 'root_db');
+    define('DB_NAME', 'mcq_db');
     define('DB_USER', 'root');
     define('DB_PASSWORD', '');
     define('DB_HOST', 'localhost');
@@ -23,7 +23,7 @@ if (strpos($url_temp, 'localhost') || $production_mode == "DEV") {
     define('DB_HOST_FRONTEND', 'localhost');
 
     define('DEFAULT_TIMEZONE', 'Asia/Ho_Chi_Minh');
-    define('APP_PATH', 'http://localhost/esmiles/root/');
+    define('APP_PATH', 'http://localhost/TruongHocSo/mcq/');
 }else if($deploy_to == 'TEST'){
 
     define ('LOCAL_DATA', false);
