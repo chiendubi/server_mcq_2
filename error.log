@@ -2092,3 +2092,402 @@
 )
 
 (11/07/22-18:34) inflection - _json_echo - msg = getDataList
+(13/07/22-09:06) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:06) host_name:ths.esmiles.vn
+(13/07/22-09:06) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:06) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:06) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:06) shared.php - controller,action,post: usermasters,account,{"data":"{\"username\":\"chienld@esmiles.vn\",\"password\":\"123456\"}","language":"vi"}
+(13/07/22-09:06) inflection - _json_echo - msg = admin_login
+(13/07/22-09:06) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:07) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:07) host_name:ths.esmiles.vn
+(13/07/22-09:07) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:07) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:07) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:07) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:07) shared.php - controller,action,post: admins,teacher,{"data":"{}","language":"vi"}
+(13/07/22-09:14) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:14) host_name:ths.esmiles.vn
+(13/07/22-09:14) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:14) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:14) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:14) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:14) shared.php - controller,action,post: admins,teacher,{"data":"{}","language":"vi"}
+(13/07/22-09:15) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:15) host_name:ths.esmiles.vn
+(13/07/22-09:15) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:15) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:15) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:15) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:15) shared.php - controller,action,post: admins,teacher,{"data":"{}","language":"vi"}
+(13/07/22-09:16) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:16) host_name:ths.esmiles.vn
+(13/07/22-09:16) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:16) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:16) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:16) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:16) shared.php - controller,action,post: admins,teacher,{"data":"{}","language":"vi"}
+(13/07/22-09:19) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:19) host_name:ths.esmiles.vn
+(13/07/22-09:19) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:19) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:19) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:19) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:19) shared.php - controller,action,post: admins,teacher,{"data":"{}","language":"vi"}
+(13/07/22-09:19) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:19) host_name:ths.esmiles.vn
+(13/07/22-09:19) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:19) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:19) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:19) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:19) shared.php - controller,action,post: admins,teacher,{"data":"{}","language":"vi"}
+(13/07/22-09:20) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:20) host_name:ths.esmiles.vn
+(13/07/22-09:20) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:20) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:20) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:20) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:20) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:20) host_name:ths.esmiles.vn
+(13/07/22-09:20) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:20) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:20) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:20) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:20) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_dokho.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:20) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => 2021-2022
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => 2022-2023
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 2
+    [totalRecordwithFilter] => 2
+)
+
+(13/07/22-09:20) inflection - _json_echo - msg = getDataList
+(13/07/22-09:21) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":\"7\",\"code\":\"2YZ9\",\"name\":\"Độ khó 1\"}}","language":"vi"}
+(13/07/22-09:21) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:21) shared.php - controller,action,post: admins,list,{"draw":"2","columns":[{"data":"c_dokho.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:21) getDataList-result:Array
+(
+    [draw] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => 2022-2023
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Độ khó 1
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 2
+    [totalRecordwithFilter] => 2
+)
+
+(13/07/22-09:21) inflection - _json_echo - msg = getDataList
+(13/07/22-09:21) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":\"10\",\"code\":\"2UP3\",\"name\":\"Độ khó 2\"}}","language":"vi"}
+(13/07/22-09:21) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:21) shared.php - controller,action,post: admins,list,{"draw":"3","columns":[{"data":"c_dokho.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:21) getDataList-result:Array
+(
+    [draw] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Độ khó 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Độ khó 2
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 2
+    [totalRecordwithFilter] => 2
+)
+
+(13/07/22-09:21) inflection - _json_echo - msg = getDataList
+(13/07/22-09:21) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Độ khó 3\"}}","language":"vi"}
+(13/07/22-09:21) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:21) shared.php - controller,action,post: admins,list,{"draw":"4","columns":[{"data":"c_dokho.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:21) getDataList-result:Array
+(
+    [draw] => 4
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Độ khó 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Độ khó 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Độ khó 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:21) inflection - _json_echo - msg = getDataList
