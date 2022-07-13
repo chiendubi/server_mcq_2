@@ -2491,3 +2491,911 @@
 )
 
 (13/07/22-09:21) inflection - _json_echo - msg = getDataList
+(13/07/22-09:23) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:23) host_name:ths.esmiles.vn
+(13/07/22-09:23) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:23) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:23) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:23) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:23) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_dokho.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:23) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Độ khó 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Độ khó 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Độ khó 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:23) inflection - _json_echo - msg = getDataList
+(13/07/22-09:23) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:23) host_name:ths.esmiles.vn
+(13/07/22-09:23) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:23) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:23) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:23) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:23) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_dokho.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:23) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Độ khó 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Độ khó 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Độ khó 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:23) inflection - _json_echo - msg = getDataList
+(13/07/22-09:26) shared.php - controller,action,post: usermasters,account,{"data":"{\"host_name\":\"ths.esmiles.vn\"}","language":"vi"}
+(13/07/22-09:26) host_name:ths.esmiles.vn
+(13/07/22-09:26) chainPermission:Array
+(
+    [status] => OK
+    [message] => There are 1 records for query!
+    [info] => Array
+        (
+            [rows] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => ESC_LAB.DEMO
+                            [language_permission] => ["vi"]
+                            [active] => 1
+                        )
+
+                )
+
+        )
+
+)
+
+(13/07/22-09:26) inflection - _json_echo - msg = getChainByHostName
+(13/07/22-09:26) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:26) shared.php - controller,action,post: usermasters,account,{"data":"{\"user_id\":\"280\",\"ss_id\":\"6ac422c1b416930cb67ac5ee779fdda0\"}","language":"vi"}
+(13/07/22-09:26) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_dokho.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:26) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Độ khó 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Độ khó 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_dokho] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Độ khó 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:26) inflection - _json_echo - msg = getDataList
+(13/07/22-09:27) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:27) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Độ khó 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Độ khó 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Độ khó 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:27) inflection - _json_echo - msg = getDataList
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":\"7\",\"code\":\"2YZ9\",\"name\":\"Thường xuyên 1\"}}","language":"vi"}
+(13/07/22-09:28) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"draw":"2","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:28) getDataList-result:Array
+(
+    [draw] => 2
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Độ khó 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Độ khó 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:28) inflection - _json_echo - msg = getDataList
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":\"10\",\"code\":\"2UP3\",\"name\":\"Thường xuyên 2\"}}","language":"vi"}
+(13/07/22-09:28) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"draw":"3","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:28) getDataList-result:Array
+(
+    [draw] => 3
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Thường xuyên 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Độ khó 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:28) inflection - _json_echo - msg = getDataList
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":\"11\",\"code\":\"DK3KNK\",\"name\":\"Thường xuyên 3\"}}","language":"vi"}
+(13/07/22-09:28) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"draw":"4","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:28) getDataList-result:Array
+(
+    [draw] => 4
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Thường xuyên 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Thường xuyên 3
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 3
+    [totalRecordwithFilter] => 3
+)
+
+(13/07/22-09:28) inflection - _json_echo - msg = getDataList
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Thường xuyên 4\"}}","language":"vi"}
+(13/07/22-09:28) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:28) shared.php - controller,action,post: admins,list,{"draw":"5","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:28) getDataList-result:Array
+(
+    [draw] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Thường xuyên 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Thường xuyên 3
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 12
+                            [code] => TX4QXQ
+                            [name] => Thường xuyên 4
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 4
+    [totalRecordwithFilter] => 4
+)
+
+(13/07/22-09:28) inflection - _json_echo - msg = getDataList
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Giữa kì 1\"}}","language":"vi"}
+(13/07/22-09:29) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"draw":"6","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:29) getDataList-result:Array
+(
+    [draw] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 13
+                            [code] => GK1XCY
+                            [name] => Giữa kì 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Thường xuyên 2
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Thường xuyên 3
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 12
+                            [code] => TX4QXQ
+                            [name] => Thường xuyên 4
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 5
+    [totalRecordwithFilter] => 5
+)
+
+(13/07/22-09:29) inflection - _json_echo - msg = getDataList
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Giữa kì 2\"}}","language":"vi"}
+(13/07/22-09:29) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"draw":"7","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:29) getDataList-result:Array
+(
+    [draw] => 7
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 13
+                            [code] => GK1XCY
+                            [name] => Giữa kì 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 14
+                            [code] => GK2P9J
+                            [name] => Giữa kì 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Thường xuyên 2
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Thường xuyên 3
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 12
+                            [code] => TX4QXQ
+                            [name] => Thường xuyên 4
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 6
+    [totalRecordwithFilter] => 6
+)
+
+(13/07/22-09:29) inflection - _json_echo - msg = getDataList
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Cuối kì 1\"}}","language":"vi"}
+(13/07/22-09:29) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"draw":"8","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:29) getDataList-result:Array
+(
+    [draw] => 8
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 15
+                            [code] => CK1YZ3
+                            [name] => Cuối kì 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 13
+                            [code] => GK1XCY
+                            [name] => Giữa kì 1
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 14
+                            [code] => GK2P9J
+                            [name] => Giữa kì 2
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Thường xuyên 2
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Thường xuyên 3
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 12
+                            [code] => TX4QXQ
+                            [name] => Thường xuyên 4
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 7
+    [totalRecordwithFilter] => 7
+)
+
+(13/07/22-09:29) inflection - _json_echo - msg = getDataList
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"data":"{\"default\":{\"id\":0,\"code\":null,\"name\":\"Cuối kì 2\"}}","language":"vi"}
+(13/07/22-09:29) inflection - _json_echo - msg = saveFormData
+(13/07/22-09:29) shared.php - controller,action,post: admins,list,{"draw":"9","columns":[{"data":"c_loaibaikiemtra.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:29) getDataList-result:Array
+(
+    [draw] => 9
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 15
+                            [code] => CK1YZ3
+                            [name] => Cuối kì 1
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 16
+                            [code] => CK2F4T
+                            [name] => Cuối kì 2
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 13
+                            [code] => GK1XCY
+                            [name] => Giữa kì 1
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 14
+                            [code] => GK2P9J
+                            [name] => Giữa kì 2
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => Thường xuyên 1
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Thường xuyên 2
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 11
+                            [code] => DK3KNK
+                            [name] => Thường xuyên 3
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [C_loaibaikiemtra] => Array
+                        (
+                            [id] => 12
+                            [code] => TX4QXQ
+                            [name] => Thường xuyên 4
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 8
+    [totalRecordwithFilter] => 8
+)
+
+(13/07/22-09:29) inflection - _json_echo - msg = getDataList
+(13/07/22-09:30) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_monhoc.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:30) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_monhoc] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => Toán
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 1
+    [totalRecordwithFilter] => 1
+)
+
+(13/07/22-09:30) inflection - _json_echo - msg = getDataList
+(13/07/22-09:30) shared.php - controller,action,post: admins,list,{"draw":"1","columns":[{"data":"c_namhoc.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"c_khoi.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"c_lop.name","name":"","searchable":"true","orderable":"false","search":{"value":"","regex":"false"}},{"data":"","name":"","searchable":"false","orderable":"false","search":{"value":"","regex":"false"}}],"order":[{"column":"0","dir":"asc"}],"start":"0","length":"10","search":{"value":"","regex":"false"},"language":"vi","data":"{\"language\":\"vi\"}"}
+(13/07/22-09:30) shared.php - controller,action,post: admins,list,{"data":"{}","language":"vi"}
+(13/07/22-09:30) inflection - _json_echo - msg = list
+(13/07/22-09:30) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:30) getDataList-result:Array
+(
+    [draw] => 1
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [C_lop] => Array
+                        (
+                            [id] => 2
+                            [code] => AO8I
+                            [name] => A1
+                            [c_khoi_code] => 1O5F
+                            [c_namhoc_code] => 2YZ9
+                        )
+
+                    [C_namhoc] => Array
+                        (
+                            [id] => 7
+                            [code] => 2YZ9
+                            [name] => 2021-2022
+                        )
+
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [C_lop] => Array
+                        (
+                            [id] => 3
+                            [code] => AK45
+                            [name] => A1
+                            [c_khoi_code] => 1O5F
+                            [c_namhoc_code] => 2UP3
+                        )
+
+                    [C_namhoc] => Array
+                        (
+                            [id] => 10
+                            [code] => 2UP3
+                            [name] => 2022-2023
+                        )
+
+                    [C_khoi] => Array
+                        (
+                            [id] => 4
+                            [code] => 1O5F
+                            [name] => 10
+                        )
+
+                )
+
+        )
+
+    [totalRecords] => 2
+    [totalRecordwithFilter] => 2
+)
+
+(13/07/22-09:30) inflection - _json_echo - msg = getDataList
+(13/07/22-09:30) inflection - _json_echo - msg = list
+(13/07/22-09:30) inflection - _json_echo - msg = callLocalFunction
+(13/07/22-09:30) inflection - _json_echo - msg = getOptionData
