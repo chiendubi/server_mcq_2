@@ -55,7 +55,7 @@ class chainGlobal {
 
         $response['status'] = 'OK';
         $response['data']['active'] = 1;
-        $response['data']['code'] = "ESC_LAB.DEMO";
+        $response['data']['code'] = "ESC_LAB.JUSTOPEN";
         $response['data']['languages'] = array();
         $response['data']['languages'][] = $languages;
       

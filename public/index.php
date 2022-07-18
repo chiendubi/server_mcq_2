@@ -24,6 +24,7 @@
     require_once (SERVER_ROOT . '/config/environment.php');
     require_once (SERVER_ROOT . '/config/constant.php');
     // require_once (__DIR__ . DS . 'connect_frontend.php');
+    require_once (__DIR__ . DS . 'connect_core.php');
     require_once (__DIR__ . DS . 'utility.php');
     // require_once (__DIR__ . DS . 'notification.php');
     // require_once (__DIR__ . DS . 'sms.php');

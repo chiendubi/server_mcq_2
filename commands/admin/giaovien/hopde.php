@@ -16,8 +16,8 @@ class hopde{
             case 'checkDataUsed':
                 $this->checkDataUsed();
                 break;
-            case 'getData':
-                $this->getData();
+            case 'getCauHoi':
+                $this->getCauHoi();
                 break;
             case 'getOptionData':
                 $this->getOptionData();
@@ -145,8 +145,8 @@ class hopde{
         _json_echo('checkDataUsed', $response);
     }
 
-     function getData(){
-        $response = array('status' => 'ERROR', 'message' => 'getData', 'data' => array());
+     function getCauHoi(){
+        $response = array('status' => 'ERROR', 'message' => 'getCauHoi', 'data' => array());
         $data = Utility::processedData();
 
         // $result = $this->sql_model()->queryWithResultSet('
@@ -158,7 +158,7 @@ class hopde{
         //     $response['status'] = 'OK';
         //     $response['data'] = $result['info']['rows'];
         // } 
-        _json_echo('getData', $response);
+        _json_echo('getCauHoi', $response);
     }
     function getOptionData(){
         $response = array('status' => 'OK', 'message' => 'getOptionData', 'data' => array());
