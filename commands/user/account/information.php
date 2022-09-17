@@ -47,7 +47,7 @@ class information {
         $employee_id = $user['employee_id'];
         $chain_code = $user['chain_code'];
         $user_information = array();
-        $chainPermission = connect_core::sqlQuery('SELECT app_permission, short_name FROM chain WHERE code ="'.$chain_code.'"');
+        $chainPermission = $this->sql_model()->queryWithOneResultSet('SELECT app_permission, short_name FROM chain WHERE code ="'.$chain_code.'"');
         $chainPermission = isset($chainPermission['info']['rows']) ? $chainPermission['info']['rows'][0] : array();
         $chain = array(
             'app_permission' => (count($chainPermission) > 0 ) ? $chainPermission['app_permission'] : array(),

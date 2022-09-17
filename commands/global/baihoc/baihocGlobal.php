@@ -1,5 +1,5 @@
 <?php
-class monhocGlobal {
+class baihocGlobal {
     use sqlModel;
 	function beforeAction ($action) {
         switch ($action) {
@@ -14,9 +14,11 @@ class monhocGlobal {
     function list(){
         $response = array('status' => 'ERROR', 'message' => 'list', 'data' => array());
         $data = Utility::processedData();
+        
         $sql = '
-            SELECT c_monhoc.name, c_monhoc.code 
-            FROM c_monhoc
+            SELECT c_baihoc.name, c_baihoc.code, c_monhoc.code as c_monhoc_code 
+            FROM c_baihoc
+            LEFT JOIN c_monhoc ON (c_monhoc.code = c_baihoc.c_monhoc_code)
         ';
         $result =  $this->sql_model()->queryWithResultSet($sql);
         if($result['status'] = 'OK'){
@@ -24,9 +26,12 @@ class monhocGlobal {
             foreach($result['info']['rows'] as $dt){    
                 $response['data'][] = array(
                     'value' => $dt['code'], 
-                    'label' => $dt['name']
+                    'label' => $dt['name'],
+                    'c_monhoc_code' => $dt['c_monhoc_code']
                 );
             }
+
+            
         }else{
             $response = array(
                 'status' => 'ERROR', 

@@ -523,6 +523,7 @@ class Utility {
 
         ## Fetch records  
         $empQuery = $searchQuery.$conditionDefault;
+        logError('empQuery:'.print_r($empQuery, true));
         $result = $sql_model->custom($empQuery);
         $response = array(
             'draw' => $draw,
