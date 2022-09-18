@@ -35,15 +35,18 @@ class cauhoi{
         $query = '
             SELECT 
                 c_cauhoi.*,
-                c_goi.*, 
-                c_loaicauhoi.*  
+                c_monhoc.*, 
+                c_baihoc.*, 
+                c_hopde.* 
             FROM c_cauhoi 
-            LEFT JOIN c_goi ON c_goi.code = c_cauhoi.c_goi_code 
-            LEFT JOIN c_loaicauhoi ON c_loaicauhoi.code = c_cauhoi.c_loaicauhoi_code 
-            WHERE 1 
+            LEFT JOIN c_monhoc ON c_monhoc.code = c_cauhoi.c_monhoc_code 
+            LEFT JOIN c_baihoc ON c_baihoc.code = c_cauhoi.c_baihoc_code 
+            LEFT JOIN c_hopde ON c_hopde.code = c_cauhoi.c_hopde_code 
+            WHERE c_cauhoi.c_monhoc_code = "'.$postData['c_monhoc_code'].'" 
         ';
         $condition = '';
         $result = Utility::processedQueryDataList($table, $query, $condition);
+         logError ('query-result:'.print_r($query,true));
          logError ('getDataList-result:'.print_r($result,true));
 
         $adata = array();
@@ -52,8 +55,9 @@ class cauhoi{
             $adata[] = array(
                 'DT_RowId' => 'row_'.$rs['C_cauhoi']['id'],
                 'c_cauhoi' => $rs['C_cauhoi'],
-                'c_goi' => $rs['C_goi'],
-                'c_loaicauhoi' => $rs['C_loaicauhoi']
+                'c_monhoc' => $rs['C_monhoc'],
+                'c_baihoc' => $rs['C_baihoc'],
+                'c_hopde' => $rs['C_hopde']
             );
         }
         $response = array(
@@ -69,14 +73,11 @@ class cauhoi{
         $response = array('status' => 'ERROR', 'message' => 'saveFormData', 'data' => array());
         $data = Utility::processedData(true);
 
-        logError ('data:'. print_r($data,true));
+        // logError ('data:'. print_r($data,true));
 
         $today = date('Y-m-d H:i:s'); # 2022-06-30 12:10:53
         $today_string = date( 'd/m/Y (H:i)', strtotime( $today )); # 30/06/2022 (12:10)
 
-        //  // logError ('today:'.print_r($today,true));
-        //  // logError ('today_string:'.print_r($today_string, true));
-        // die();
         $skip = array();
         $json = array();
         $json[] = 'dapandung';
@@ -161,15 +162,19 @@ class cauhoi{
         // } 
         _json_echo('getData', $response);
     }
+  
     function getOptionData(){
         $response = array('status' => 'OK', 'message' => 'getOptionData', 'data' => array());
         $response['data'] = array(
-            'goiList' => Utility::getOptionDynamic('global', 'goi', 'goiGlobal', 'list'),
-            'loaicauhoiList' => Utility::getOptionDynamic('global', 'loaicauhoi', 'loaicauhoiGlobal', 'list'),
+            // 'namhocList' => Utility::getOptionDynamic('global', 'namhoc', 'namhocGlobal', 'list'),
+            'monhocList' => Utility::getOptionDynamic('global', 'monhoc', 'monhocGlobal', 'list'),
+            'baihocList' => Utility::getOptionDynamic('global', 'baihoc', 'baihocGlobal', 'list'),
+            // 'goiList' => Utility::getOptionDynamic('global', 'goi', 'goiGlobal', 'list'),
+            'hopdeList' => Utility::getOptionDynamic('global', 'hopde', 'hopdeGlobal', 'list'),
+            // 'loaicauhoiList' => Utility::getOptionDynamic('global', 'loaicauhoi', 'loaicauhoiGlobal', 'list'),
         );
         _json_echo('getOptionData', $response);
     }
-  
     function __destruct() {
     }
 }

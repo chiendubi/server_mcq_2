@@ -116,20 +116,19 @@ class baihocList{
     function checkDataUsed(){
         $response = array( 'status' => 'NO', 'message'=> 'checkDataUsed', 'data' => array());
         $data = Utility::processedData();
-        //  // logError ('data:'.print_r($data,true));
-        $is_check = false;
+        $is_check = true;
         if($is_check == true){
-            // $response['status'] = 'NO';
-            // $result = $this->sql_model()->queryWithResultSet('
-            //     SELECT c_systems_implant.id 
-            //     FROM c_systems_implant 
-            //     WHERE c_systems_implant.c_producers_code = "'. $data['code'] .'"
-            // ');
-            // if($result['status'] == "OK"){
-            //     if( count($result['info']['rows']) > 0 ){
-            //         $response['status'] = 'YES';
-            //     }
-            // }
+            $response['status'] = 'NO';
+            $result = $this->sql_model()->queryWithResultSet('
+                SELECT c_hopde.id 
+                FROM c_hopde 
+                WHERE c_hopde.c_baihoc_code = "'. $data['code'] .'"
+            ');
+            if($result['status'] == "OK"){
+                if( count($result['info']['rows']) > 0 ){
+                    $response['status'] = 'YES';
+                }
+            }
         }else{
             $response['status'] = 'NO';
         }

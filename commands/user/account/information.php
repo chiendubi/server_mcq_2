@@ -110,6 +110,7 @@ class information {
                 }
             }
             $employee = $this->sql_model()->queryWithOneResultSet('SELECT * FROM employees WHERE id = ' . $employee_id);
+            logError('employee123'.print_r($employee, true));
             $branch = array();
             ## $clinics = explode('|' , $employee['c_branch_code']);
             ## $parameter = array('code' => $clinics);
@@ -119,6 +120,7 @@ class information {
                 'action_code' => 'ESEP',
                 'id' => $employee['id'],
                 'code' => $employee['code'],
+                'c_monhoc_code' => $employee['c_monhoc_code'],
                 'avatar' => $employee['avatar'],
                 'name' => $employee['last_name'] . ' ' . $employee['first_name'],
                 'position' => $employee['c_position_code'],

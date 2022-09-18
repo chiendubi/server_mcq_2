@@ -19,9 +19,7 @@ class monhocList{
             case 'checkDataUsed':
                 $this->checkDataUsed();
                 break;
-            case 'getData':
-                $this->getData();
-                break;
+            
             default:
                 $response = array('status' => 'ERROR', 'message' => 'Please set beforeAction '. $action);
                 _json_echo('list', $response);
@@ -129,20 +127,19 @@ class monhocList{
     function checkDataUsed(){
         $response = array( 'status' => 'NO', 'message'=> 'checkDataUsed', 'data' => array());
         $data = Utility::processedData();
-        //  // logError ('data:'.print_r($data,true));
-        $is_check = false;
+        $is_check = true;
         if($is_check == true){
-            // $response['status'] = 'NO';
-            // $result = $this->sql_model()->queryWithResultSet('
-            //     SELECT c_systems_implant.id 
-            //     FROM c_systems_implant 
-            //     WHERE c_systems_implant.c_producers_code = "'. $data['code'] .'"
-            // ');
-            // if($result['status'] == "OK"){
-            //     if( count($result['info']['rows']) > 0 ){
-            //         $response['status'] = 'YES';
-            //     }
-            // }
+            $response['status'] = 'NO';
+            $result = $this->sql_model()->queryWithResultSet('
+                SELECT c_baihoc.id 
+                FROM c_baihoc 
+                WHERE c_baihoc.c_monhoc_code = "'. $data['code'] .'"
+            ');
+            if($result['status'] == "OK"){
+                if( count($result['info']['rows']) > 0 ){
+                    $response['status'] = 'YES';
+                }
+            }
         }else{
             $response['status'] = 'NO';
         }
@@ -151,23 +148,6 @@ class monhocList{
         }
         _json_echo('checkDataUsed', $response);
     }
-
-     function getData(){
-        $response = array('status' => 'ERROR', 'message' => 'getData', 'data' => array());
-        $data = Utility::processedData();
-
-        // $result = $this->sql_model()->queryWithResultSet('
-        //     SELECT c_tasks_translation.* 
-        //     FROM c_tasks_translation
-        //     WHERE c_task_code = "'.$data['c_task_code'].'"
-        // ');
-        // if($result['status'] == "OK"){
-        //     $response['status'] = 'OK';
-        //     $response['data'] = $result['info']['rows'];
-        // } 
-        _json_echo('getData', $response);
-    }
-  
     function __destruct() {
     }
 }

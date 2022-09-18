@@ -465,6 +465,8 @@ class Utility {
         if(!$type){
             $code = $fieldCondition . time();
         }else{
+            $remove_char = array('(',')','\"',"\'",'-','=');
+            $fieldCondition = str_replace($remove_char, "", $fieldCondition);
             $str = substr(str_shuffle(str_repeat("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ", 3)), 0, 3);
             $code = Utility::firstCharStringCode($fieldCondition).$str;
         }
@@ -523,7 +525,6 @@ class Utility {
 
         ## Fetch records  
         $empQuery = $searchQuery.$conditionDefault;
-        logError('empQuery:'.print_r($empQuery, true));
         $result = $sql_model->custom($empQuery);
         $response = array(
             'draw' => $draw,

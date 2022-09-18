@@ -118,14 +118,13 @@ class hopdeList{
     function checkDataUsed(){
         $response = array( 'status' => 'NO', 'message'=> 'checkDataUsed', 'data' => array());
         $data = Utility::processedData();
-        //  // logError ('data:'.print_r($data,true));
         $is_check = false;
         if($is_check == true){
             // $response['status'] = 'NO';
             // $result = $this->sql_model()->queryWithResultSet('
-            //     SELECT c_systems_implant.id 
-            //     FROM c_systems_implant 
-            //     WHERE c_systems_implant.c_producers_code = "'. $data['code'] .'"
+            //     SELECT c_hopde.id 
+            //     FROM c_hopde 
+            //     WHERE c_hopde.c_baihoc_code = "'. $data['code'] .'"
             // ');
             // if($result['status'] == "OK"){
             //     if( count($result['info']['rows']) > 0 ){
@@ -144,9 +143,8 @@ class hopdeList{
     function getOptionData(){
         $response = array('status' => 'OK', 'message' => 'getOptionData', 'data' => array());
         $response['data'] = array(
-            'namhocList' => Utility::getOptionDynamic('global', 'namhoc', 'namhocGlobal', 'list'),
             'monhocList' => Utility::getOptionDynamic('global', 'monhoc', 'monhocGlobal', 'list'),
-            'baihocList' => Utility::getOptionDynamic('global', 'baihoc', 'baihocGlobal', 'list'),
+            'baihocList' => Utility::getOptionDynamic('global', 'baihoc', 'baihocGlobal', 'list')
         );
         _json_echo('getOptionData', $response);
     }
