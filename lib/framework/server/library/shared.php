@@ -177,7 +177,7 @@ $cache = new Cache();
 $inflect = new Inflection();
 
 setReporting();
-removeMagicQuotes();
+// removeMagicQuotes();
 unregisterGlobals();
 callHook();
 
